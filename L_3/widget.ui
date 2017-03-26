@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>422</width>
-    <height>357</height>
+    <width>346</width>
+    <height>380</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,19 +16,6 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(211, 215, 207) </string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>300</y>
-     <width>211</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Сума майбутнього замовлення:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
@@ -52,19 +39,19 @@
     </rect>
    </property>
    <property name="title">
-    <string>GroupBox</string>
+    <string>Зробіть заказ:</string>
    </property>
    <widget class="QCheckBox" name="checkBox_5">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>140</y>
-      <width>85</width>
+      <width>141</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Гавайська піцца</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_4">
@@ -72,12 +59,12 @@
      <rect>
       <x>20</x>
       <y>111</y>
-      <width>85</width>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Рулет з шпинатом</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_7">
@@ -85,12 +72,12 @@
      <rect>
       <x>20</x>
       <y>198</y>
-      <width>85</width>
+      <width>141</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Напій грейфрут</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_6">
@@ -98,12 +85,12 @@
      <rect>
       <x>20</x>
       <y>169</y>
-      <width>85</width>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Ванільний кокткейль</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox">
@@ -111,12 +98,12 @@
      <rect>
       <x>20</x>
       <y>24</y>
-      <width>85</width>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Фарширована форель</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_3">
@@ -124,12 +111,12 @@
      <rect>
       <x>20</x>
       <y>82</y>
-      <width>85</width>
+      <width>181</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Крем-суп з шампінйонів</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_2">
@@ -137,14 +124,60 @@
      <rect>
       <x>20</x>
       <y>53</y>
-      <width>85</width>
+      <width>161</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Телятина під соусом</string>
     </property>
    </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>330</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Замовити</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>290</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Сума майбутнього замовлення:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>грн.</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
