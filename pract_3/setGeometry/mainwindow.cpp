@@ -14,8 +14,8 @@ MainWindow::~MainWindow()
 }
 void MainWindow::keyPressEvent(QKeyEvent *event)
 {
-    switch(event->key()) {
-                  case Qt::Key_P:
+    int key = event->key();
+                 if(key== Qt::Key_P)
                                    if(event->modifiers() & Qt::ShiftModifier) {
                                        if(geometry().width() > geometry().height())
                                        {
@@ -29,8 +29,7 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
                                        }                          //было нажато сочетание Shift + S
                                    }
 
-                  default:
-                                   QWidget::keyPressEvent(event); //иначе передаем событие дальше
-            }
+
+
     }
 

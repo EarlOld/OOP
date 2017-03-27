@@ -1,7 +1,13 @@
 #ifndef WIDGET_H
 #define WIDGET_H
 
+#include <iostream>
+#include <QMainWindow>
 #include <QWidget>
+#include <QGridLayout>
+#include <QLabel>
+#include <QKeyEvent>
+#include <Qt>
 
 namespace Ui {
 class Widget;
@@ -18,7 +24,12 @@ public:
 private slots:
     void on_pushButton_clicked();
 
+    void on_pushButton_5_clicked();
+
 private:
+    bool cabs, ins, num, scrl;
+    void keyPressEvent(QKeyEvent *event);
+
     Ui::Widget *ui;
 };
 
