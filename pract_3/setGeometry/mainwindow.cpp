@@ -29,7 +29,5 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
                                        }                          //было нажато сочетание Shift + S
                                    }
 
-
-
     }
 
